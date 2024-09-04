@@ -247,8 +247,7 @@ print(a)
 ### Odd & Even Number
 
 ```python
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-for i in a:
+for i in range(1, 11):
   if i % 2 == 0:
     print(i, "Even Number")
   else:
