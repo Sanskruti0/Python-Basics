@@ -294,6 +294,18 @@ while a < 10:
     continue
 ```
 
+### Emulating Do-While in python
+
+```python
+while True:
+    a = int(input("Enter a number greater than 10: "))
+
+    if a > 10:
+        break
+
+    print("Try again!")
+```
+
 ### Range
 
 ```python
