@@ -137,6 +137,16 @@ print(c[0]) # Printing row
 print(c[0][0]) # Printing 1st element
 ```
 
+### List Comprehension
+```python
+list = [i*i for i in range(10) if i%2==0]
+print(list) 
+
+name = ["milo", "Gil", "Sara", "Puhan", "Rick"] 
+list = [item for item in name if "i" in item]
+print("Names having \"i\" in them are ", list)
+```
+
 ## 4. DICTIONARIES
 
 ### Creating Dictionary : Key & Value
