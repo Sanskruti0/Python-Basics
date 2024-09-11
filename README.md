@@ -185,16 +185,24 @@ print(a.index("Champ")) # Getting Index of Elements
 ### Creating Set
 
 ```python
-a = set()
+s = {2, 3, 5, 7, 2, 7}
+print(s)
 
-a.add("Champ")
-print(a)
-
-a.add(30)
-print(a)
+s.add("Champ")
+print(s)
 
 b = ["Champ", 21, 99.5]
 print(set(b))
+
+
+s1 = {2, 5, 6, 4, 8}
+s2 = {3, 4, 7}
+
+print(s1.union(s2)) # Prints union of both sets
+print(s1.intersection(s2)) # Prints intersection of both sets
+
+s1.remove(6) # Removes argument from set
+print(s1)
 ```
 
 ## 7. BOOLEAN
